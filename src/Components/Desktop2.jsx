@@ -1,3 +1,4 @@
+import React from 'react';
 import { IconHome } from '@tabler/icons-react';
 import { IconBrandFacebook, IconBrandInstagram } from '@tabler/icons-react';
 
