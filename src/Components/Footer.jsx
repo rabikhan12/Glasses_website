@@ -2,7 +2,7 @@ import React from 'react';
 import { IconHome } from '@tabler/icons-react';
 import { IconBrandFacebook, IconBrandInstagram } from '@tabler/icons-react';
 
-export default function  Desktop2()  {
+export default function  Footer()  {
 
     return (
       <div>
