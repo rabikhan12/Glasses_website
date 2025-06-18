@@ -1,9 +1,12 @@
 import React from "react";
+import Navbar  from "./Navbar";
 import { Link } from "react-router-dom";
 
 const Content = () => {
   return (
+
     <div>
+            <Navbar /> 
       <div className="bg"></div>
 
       <div className="girl">
@@ -74,11 +77,11 @@ const Content = () => {
             <p className="label">sun</p>
           </Link>
 
-          <div className="card ">
+          <Link to="/optical" className="card ">
             <img src="Optical.jpg" alt="optical" />
 
             <p className="label">optical</p>
-          </div>
+          </Link>
 
           <div className="card">
             <img src="Antirad.jpg" alt="anti rad" />
