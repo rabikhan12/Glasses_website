@@ -1,6 +1,6 @@
 import React from "react";
 
-const Antirad1 = () => {
+const Antirad1copy = () => {
   return (
     <div>
       <div className="dabg"></div>
@@ -15,6 +15,7 @@ const Antirad1 = () => {
             <h1 className="da-h3">Fall 2025</h1>
           </div>
           <div className="da-h2">
+            {" "}
             <p className="da-h2">COLLECTION</p>
           </div>
         </div>
@@ -28,4 +29,4 @@ const Antirad1 = () => {
   );
 };
 
-export default Antirad1;
+export default Antirad1copy;

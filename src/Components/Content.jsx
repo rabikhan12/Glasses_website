@@ -1,89 +1,102 @@
- import React, {useState} from 'react'
- import { Link } from "react-router-dom"
- 
- const Content = () => {
-   return (
+import React from "react";
+import { Link } from "react-router-dom";
 
-            <div>
-        <div className='bg'></div>
+const Content = () => {
+  return (
+    <div>
+      <div className="bg"></div>
 
-<div className='girl'>
-    <div className='pic'>
-        <img src="girl.png" alt="" />
-    </div>
-
-
-    <div className='text'>
-        <div className='t-h'>
-        <h3 className='heading'>Discover your ideal eyewear style</h3>
+      <div className="girl">
+        <div className="pic">
+          <img src="girl.png" alt="" />
         </div>
 
+        <div className="text">
+          <div className="t-h">
+            <h3 className="heading">Discover your ideal eyewear style</h3>
+          </div>
 
-<div className='t-p'>
-        <p className='paragraph'>“We Specialize in discovering your ideal <br /> match. Discover the transformative impact <br /> a perfect pairing can have. Let’s uncover <br /> your collaboratively”</p>
-        </div>
-        </div>
-
-
-<div className='button'>
-    <div className='buttonn'> 
-        <button type='buttonn' className='sun'>sun</button>
-
-    <button type='buttonn' className='optical'>optical</button>
-
-<button type='buttonn' className='antirad'>antirad</button>   
-
-    </div> 
-    <br />
-
-    <div className='par'> <p>The lightest optical frames around.</p>
-    </div>
-</div>
+          <div className="t-p">
+            <p className="paragraph">
+              “We Specialize in discovering your ideal <br /> match. Discover
+              the transformative impact <br /> a perfect pairing can have. Let’s
+              uncover <br /> your collaboratively”
+            </p>
+          </div>
         </div>
 
+        <div className="button">
+          <div className="buttonn">
+            <button type="buttonn" className="sun">
+              sun
+            </button>
 
-        <div className='bgg'>
-<div className='hh'>
-    <h2 className='head'>New Arrivals</h2>
-</div>
+            <button type="buttonn" className="optical">
+              optical
+            </button>
 
-<div className='paa'>
-    <p className='parag'>Unveil Our Newest Eyewear Arrivals and Elevate <br /> Your Look with the Latest Trends and Designs. <br /> Discover a World of Fashion-forward Frames <br /> Waiting Just for You!</p> <br />
+            <button type="buttonn" className="antirad">
+              antirad
+            </button>
+          </div>
+          <br />
 
-    <div className='b'>
-    <button type='button' className='bb'>Learn more</button></div>
-</div>
-
-
-<div className='glasses'> 
-    <Link to="/sunn" className='card ' >
-    <img src="Sun.jpg" alt="sun" />
-    
-    <p className='label'>sun</p>
-    </Link>
-    
-    <div className='card '>
-    <img src="Optical.jpg" alt="optical" />
-    
-    <p className='label'>optical</p>
-    </div>
-
-    <div className='card'>
-    <img src="Antirad.jpg" alt="anti rad" />
-    <p className='label'>anti rad</p>
-    </div>
-</div>
-<div className='upl'>
-    <button type='button' className='but'>Upload image</button>
-   <br />
-      <button type='button' className='butt'>Camera</button>
-</div>
+          <div className="par">
+            {" "}
+            <p>The lightest optical frames around.</p>
+          </div>
         </div>
-        
-
       </div>
-    )
- }
- 
- export default Content
- 
+
+      <div className="bgg">
+        <div className="hh">
+          <h2 className="head">New Arrivals</h2>
+        </div>
+
+        <div className="paa">
+          <p className="parag">
+            Unveil Our Newest Eyewear Arrivals and Elevate <br /> Your Look with
+            the Latest Trends and Designs. <br /> Discover a World of
+            Fashion-forward Frames <br /> Waiting Just for You!
+          </p>{" "}
+          <br />
+          <div className="b">
+            <button type="button" className="bb">
+              Learn more
+            </button>
+          </div>
+        </div>
+
+        <div className="glasses">
+          <Link to="/sunn" className="card ">
+            <img src="Sun.jpg" alt="sun" />
+
+            <p className="label">sun</p>
+          </Link>
+
+          <div className="card ">
+            <img src="Optical.jpg" alt="optical" />
+
+            <p className="label">optical</p>
+          </div>
+
+          <div className="card">
+            <img src="Antirad.jpg" alt="anti rad" />
+            <p className="label">anti rad</p>
+          </div>
+        </div>
+        <div className="upl">
+          <button type="button" className="but">
+            Upload image
+          </button>
+          <br />
+          <button type="button" className="butt">
+            Camera
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Content;
