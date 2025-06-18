@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.d4pic{
+    width: 100%;
+    height: 600px;
+}
+.d4pic img{
+    width: 100%;
+}
+.block{
+background: 
+  radial-gradient(circle at top center, #622A9A -20%, black 60%),
+  linear-gradient(to right, black 50%, #622A9A 30%, #622A9A 70%, black 100%);
+  height: 490px;
+  margin-top: -200PX;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.bimg{
+display: flex;
+gap: 60px;
+}
+.blocks {
+  background: white;
+  width: 370px;
+  height: 240px;
+  border-radius: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+font-size:50px ;
+}

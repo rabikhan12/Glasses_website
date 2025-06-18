@@ -1,6 +1,8 @@
-import React , { useState } from 'react';
-export default function Content({onSlideChange })  {
-    return (
+ import React, {useState} from 'react'
+ import { Link } from "react-router-dom"
+ 
+ const Content = () => {
+   return (
 
             <div>
         <div className='bg'></div>
@@ -54,11 +56,11 @@ export default function Content({onSlideChange })  {
 
 
 <div className='glasses'> 
-    <div className='card ' >
+    <Link to="/sunn" className='card ' >
     <img src="Sun.jpg" alt="sun" />
     
     <p className='label'>sun</p>
-    </div>
+    </Link>
     
     <div className='card '>
     <img src="Optical.jpg" alt="optical" />
@@ -81,4 +83,7 @@ export default function Content({onSlideChange })  {
 
       </div>
     )
-  }
+ }
+ 
+ export default Content
+ 
